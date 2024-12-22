@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(251, 251, 142);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 0;
+}
+
+nav span {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 30px; 
+    display: inline-block;
+}
+
+.center-block {
+    margin: 70px auto 20px auto; /* Reduce bottom margin to 20px */
+    background-color: rgb(181, 181, 181);
+    text-align: center;
+    padding: 40px;
+    width: 80%; /* Adjust the width as needed */
+    border-radius: 10px; /* To round the corners */
+}
+
+.center-block h1 {
+    color: purple;
+    font-weight: bold;
+}
+
+.center-block h2 {
+    color: black;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    width: 75%; /* Ensure the gallery is slightly less wide than the block */
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 100%;
+    aspect-ratio: 1; /* Ensure all images are square and of equal size */
+    border-radius: 20px; /* Curved edges */
+}
